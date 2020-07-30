@@ -1,0 +1,47 @@
+table {
+    width: 30%;
+    height: 50%;
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+
+h1 {
+    text-decoration: underline;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-left: 80px;
+}
+
+tr {
+    border: solid 2px black;
+}
+
+th {
+    border: solid 2px;
+    text-decoration: underline;
+}
+
+td {
+    border: solid 2px;
+}
+
+td:first-child {
+    font-style: italic;
+}
+
+td:last-child {
+    font-style: normal;
+}
+
+tr:nth-child(even) {
+    background-color: azure;
+
+}
+
+tr:first-child {
+    background-color: gray;
+}
+
+tr:last-child {
+    background-color: gray;
+}
