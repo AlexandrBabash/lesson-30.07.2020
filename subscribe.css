@@ -1,0 +1,49 @@
+body {
+    background: #333745;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(#333745, 0.6);
+}
+
+.card  {
+    width: 220px;
+    height: 370px;
+    border-radius: 1.5rem;
+    padding: 30px;
+    box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6) ;
+}
+
+.card .type {
+    letter-spacing: 0.1rem;
+    margin-top: 30px;
+}
+
+.card .price {
+    font-size: 7.5rem;
+}
+
+.card .price .dollar-sign {
+    font-size: 1.8rem;
+
+}
+
+.card .plane {
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.card .plane::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    color: white;
+    bottom: 40%;
+}
+
+.card:nth-child(1) {
+    background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+}
